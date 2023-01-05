@@ -2,16 +2,17 @@
     margin: 0;
     padding: 0;
     font-family: 'Open Sans';
+    box-sizing: border-box;
 }
 
 .btn-orange{
     font-weight: 700;
-font-size: 20px;
-color: white;
-padding: 18px 36px ;
-border: 0;
-background: #FD6E0A;
-border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    padding: 18px 36px ;
+    border: 0;
+    background: #FD6E0A;
+    border-radius: 5px;
 }
 
 
@@ -31,10 +32,10 @@ header{
 }
 
 .navbar .nav-title{
-font-style: normal;
-font-weight: 800;
-font-size: 45px;
-line-height: 27px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 27px;
 }
 
 .nav-title span{
@@ -49,10 +50,10 @@ line-height: 27px;
 .navbar ul li{
     
     font-weight: 400;
-font-size: 20px;
-color: #474747;
-margin-right: 50px;
-list-style-type: none;
+    font-size: 20px;
+    color: #474747;
+    margin-right: 50px;
+    list-style-type: none;
 }
 
 /* nav-banner styles */
@@ -64,21 +65,21 @@ list-style-type: none;
 
 .banner-sub-title{
     font-weight: 400;
-font-size: 45px;
-line-height: 61px;
+    font-size: 45px;
+    line-height: 61px;
 }
 .banner-title{
     font-weight: 700;
-font-size: 85px;
-line-height: 116px;
-margin-bottom: 20px;
+    font-size: 85px;
+    line-height: 116px;
+    margin-bottom: 20px;
 }
 
 .banner-description{
     font-weight: 400;
-font-size: 18px;
-line-height: 30px;
-margin-bottom: 30px ;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px ;
 }
 
 .banner-contact{
@@ -90,4 +91,189 @@ margin-bottom: 30px ;
     border-radius: 5px;
     margin-left: 20px;
     border: 1px solid #FD6E0A;
+}
+
+/* about section styles */
+.about{
+    margin: 100px 220px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+
+.about-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+}
+.about-description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 30px 0;
+    text-align: justify;
+}
+
+.info-container{
+    display: flex;
+    justify-content: space-between;
+}
+.info-item .info-name{
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 30px;
+}
+.info-item .info-value{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/* skils section styles */
+.skils{
+    margin: 130px 230px;
+}
+.skils-title{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+}
+.skils-description{
+    margin: 30px;
+    text-align: justify;
+}
+.skils-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.skil{
+    margin: 0px 10px;
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+.skil-title{
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+.skil-description{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+/* resume section styles */
+.resume-summery{
+    margin: 130px 230px;
+}
+.summery-title{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    margin: 100px 0;
+    text-align: center;
+}
+.resume-details{
+    display: flex;
+}
+
+.education{
+   margin-right: 20px;
+}
+.experience{
+    margin-left: 20px;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+}
+
+.sub-title{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.institution{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 30px;
+}
+.description{
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.resume-button{
+
+    margin: 20px auto;
+    text-align: center;
+    display: block;
+}
+
+/* contact section styles  */
+
+.comunication{
+    padding: 130px 230px;
+    background: #FFF8F3;
+    display: flex;
+    justify-content: space-between;
+    row-gap: 117px;
+}
+.message{
+    margin-left: 117px;
+}
+.contact-title, .message-title{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    margin-bottom: 20px;
+}
+.contact-description{
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.contact img{
+    width: 24px;
+    height: 24px;
+    margin-right: 24px;
+}
+.message input:not([type="submit"]){
+    border: 1px solid lightgray;
+    outline: none;
+    font-size: 16px;
+    padding-left: 30px;
+    margin-bottom: 24px;
+    line-height: 28px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    width: 461px;
+    height: 64px;
+}
+.message textarea{
+    border: 1px solid lightgray;
+    outline: none;
+    font-size: 16px;
+    padding-left: 30px;
+    margin-bottom: 24px;
+    line-height: 28px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    width: 461px;
+    height: 180px;
+}
+.message input[type="submit"]{
+    display: block;
 }
